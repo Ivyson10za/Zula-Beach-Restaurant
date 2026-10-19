@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Zulā Beach | Restaurant & Bar, Richards Bay</title>
+  <meta name="description" content="Zulā Beach – beachfront dining, cocktails and sunsets at Tuzigazi, Richards Bay. Open daily 10am–12am.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,600;1,400&family=Montserrat:wght@300;400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<header class="nav" id="nav">
+  <a href="#home" class="logo"><span>ZUL<i>A</i></span><small>BEACH</small></a>
+  <button class="burger" id="burger" aria-label="Menu">☰</button>
+  <nav id="links">
+    <a href="#about">About</a>
+    <a href="#menu">Menu</a>
+    <a href="#gallery">Gallery</a>
+    <a href="#owner">Our Founder</a>
+    <a href="#visit">Visit</a>
+  </nav>
+</header>
+
+<section class="hero" id="home">
+  <div class="hero-inner">
+    <div class="logo big"><span>ZUL<i>A</i></span><small>BEACH</small></div>
+    <p class="tagline">Sand between your toes. Sunset in your glass.</p>
+    <div class="cta">
+      <a class="btn" href="#menu">View Menu</a>
+      <a class="btn ghost" href="#visit">Find Us</a>
+    </div>
+    <p class="open">Open daily · 10am – 12am</p>
+  </div>
+</section>
+
+<section class="about reveal" id="about">
+  <div class="wrap two">
+    <div>
+      <h2>Where the bay meets good company</h2>
+      <p>Zulā Beach sits right on the water at Tuzigazi in Richards Bay. Barefoot lounges, shaded decks and golden sunsets over the harbour make it the perfect place to slow down.</p>
+      <p>From hearty breakfasts and flame-grilled meats to fresh seafood platters and ice-cold drinks, everything is made for sharing.</p>
+      <ul class="badges">
+        <li>🍽️ All you can eat</li>
+        <li>🌴 Outdoor seating</li>
+        <li>🍹 Great cocktails</li>
+        <li>⭐ 3.9 · 281 reviews</li>
+      </ul>
+    </div>
+    <img src="images/aerial.jpg" alt="Aerial view of Zulā Beach" loading="lazy">
+  </div>
+</section>
+
+<section class="menu reveal" id="menu">
+  <div class="wrap">
+    <h2 class="center">Our Menu</h2>
+    <p class="center sub">Prices in South African Rand (R)</p>
+    <div class="tabs" id="tabs">
+      <button class="active" data-tab="breakfast">Breakfast</button>
+      <button data-tab="mains">Mains</button>
+      <button data-tab="drinks">Drinks</button>
+    </div>
+    <div id="menu-content"></div>
+    <div class="food-strip">
+      <img src="images/steak.jpg" alt="Steak with wine" loading="lazy">
+      <img src="images/seafood.jpg" alt="Seafood platter" loading="lazy">
+      <img src="images/grill.jpg" alt="Grilled platter" loading="lazy">
+      <img src="images/burger.jpg" alt="Burger and chips" loading="lazy">
+    </div>
+  </div>
+</section>
+
+<section class="gallery reveal" id="gallery">
+  <div class="wrap">
+    <h2 class="center">The Zulā Vibe</h2>
+    <div class="grid">
+      <img src="images/sunset.jpg" alt="Sunset crowd" loading="lazy">
+      <img src="images/lounge.jpg" alt="Lounge area" loading="lazy">
+      <img src="images/evening.jpg" alt="Zulā Beach at night" loading="lazy">
+      <img src="images/deck.jpg" alt="Deck seating" loading="lazy">
+      <img src="images/beach.jpg" alt="Beach at dusk" loading="lazy">
+      <img src="images/entrance.jpg" alt="Entrance" loading="lazy">
+      <img src="images/chicken.jpg" alt="Rooibos chicken" loading="lazy">
+    </div>
+  </div>
+</section>
+
+<section class="owner reveal" id="owner">
+  <div class="wrap two">
+    <img src="images/owner.jpg" alt="Mr Nhlakanipho Tembe, owner of Zulā Beach">
+    <div>
+      <p class="eyebrow">Our Founder</p>
+      <h2>Mr Nhlakanipho Tembe</h2>
+      <p>Zulā Beach is the result of vision, hard work and a love for bringing people together by the water. We honour his work in creating a place where Richards Bay can gather, celebrate and unwind.</p>
+      <blockquote>“Great things are done by a series of small things brought together.”<cite>— Vincent van Gogh</cite></blockquote>
+    </div>
+  </div>
+</section>
+
+<section class="visit reveal" id="visit">
+  <div class="wrap two">
+    <div>
+      <h2>Visit Us</h2>
+      <p><strong>Address</strong><br>Anchors Cast Building, 2 Bridgetown Rd,<br>Tuzigazi, Richards Bay, 3900</p>
+      <p><strong>Hours</strong><br>Monday – Sunday: 10am – 12am</p>
+      <a class="btn" target="_blank" rel="noopener" href="https://www.google.com/maps/search/?api=1&query=Zula+Beach+Richards+Bay">Get Directions</a>
+    </div>
+    <iframe title="Map" loading="lazy" src="https://www.google.com/maps?q=Zula+Beach+Richards+Bay&output=embed"></iframe>
+  </div>
+</section>
+
+<footer>
+  <div class="logo"><span>ZUL<i>A</i></span><small>BEACH</small></div>
+  <p>© <span id="year"></span> Zulā Beach, Richards Bay. All rights reserved.</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+    </html>
